@@ -1,6 +1,6 @@
 // import React from "react";
 // import { Container, Row, Col } from "react-bootstrap";
-// import myImg from "../../Assets/avatar.svg";
+// import myImg from "../../Assets/avatar_1.jpg"; // Changed to PNG
 // import Tilt from "react-parallax-tilt";
 // import {
 //   AiFillGithub,
@@ -64,7 +64,7 @@
 //               </li>
 //               <li className="social-icons">
 //   <a
-//     href="tel:+919154094919"
+//     href="tel:+917767030303"
 //     className="icon-colour home-social-icons"
 //   >
 //     <FaPhone />
@@ -102,16 +102,15 @@
 // export default Home2;
 
 
+
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar_1.jpg"; // Changed to PNG
+import myImg from "../../Assets/avatar_1.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  // AiOutlineTwitter,
-  // AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn, FaMailBulk, FaPhone } from "react-icons/fa";
+import { FaLinkedinIn, FaMailBulk, FaPhone, FaGraduationCap } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -120,27 +119,32 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              WHO IS  <span className="purple"> SEVANTH GAJULA </span>??
+              WHO IS <span className="purple"> SEVANTH GAJULA </span>??
             </h1>
             <p className="home-about-body">
-              
-              I've worked on impactful projects like 
+              I've worked on impactful projects like
               <i>
-                <b className="purple"> Live Server Inventory Mapping  </b>
+                <b className="purple"> Live Server Inventory Mapping </b>
               </i>
-              and <i>
-                <b className="purple"> Time-Series Forecasting  </b> 
-              </i> in real-world scenarios
-              <br />
-              <br />
-              I'm passionate aout exploring &nbsp;
+              and
               <i>
-                <b className="purple">Deep Learning Technologies</b></i> and
-                enjoy contributing to tech community through hackathons
-              
+                <b className="purple"> Time-Series Forecasting </b>
+              </i>{" "}
+              in real-world scenarios.
               <br />
               <br />
-              Whenever possible I try to go through recent <i><b className="purple">Research Advancements</b></i> in deep learning
+              I'm passionate about exploring&nbsp;
+              <i>
+                <b className="purple">Deep Learning Technologies</b>
+              </i>{" "}
+              and enjoy contributing to the tech community through hackathons.
+              <br />
+              <br />
+              Whenever possible, I try to go through recent{" "}
+              <i>
+                <b className="purple">Research Advancements</b>
+              </i>{" "}
+              in deep learning.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -149,6 +153,7 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
+
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
@@ -161,41 +166,53 @@ function Home2() {
                   href="https://github.com/sevanthgajula"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
               </li>
               <li className="social-icons">
-  <a
-    href="tel:+919154094919"
-    className="icon-colour home-social-icons"
-  >
-    <FaPhone />
-  </a>
-</li>
+                <a
+                  href="https://scholar.google.com/citations?user=F4mlMmIAAAAJ&hl=en&oi=ao"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <FaGraduationCap />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="tel:+917767030303"
+                  className="icon-colour home-social-icons"
+                >
+                  <FaPhone />
+                </a>
+              </li>
 
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/sevanth-gajula-b12aa8131/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
               </li>
-              <li className="social-icons">
-  <a
-    href="mailto:sevanthgajula1@gmail.com"
-    target="_blank"
-    rel="noreferrer"
-    className="icon-colour home-social-icons"
-  >
-    <FaMailBulk />
-  </a>
-</li>
 
+              <li className="social-icons">
+                <a
+                  href="mailto:sevanthgajula1@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <FaMailBulk />
+                </a>
+              </li>
+
+              
             </ul>
           </Col>
         </Row>
@@ -203,4 +220,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;
