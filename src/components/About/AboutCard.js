@@ -10,20 +10,21 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hello Everyone, I am <span className="purple">Sevanth Gajula </span>
             from <span className="purple"> Hyderabad, India.</span>
-            {/* <br />
-            I have close to an year's Startup experience as an<span className="purple"> ML Engineer</span>, where I worked on an impactful client-facng Project with <span className="purple">Rakuten, India </span>            <br />
-            I've published couple of Research Papers as Primary Author at International Conferences.
-            <br />
-            <br /> */}
-            <br />
+<br />
 I have close to 2 years of experience as a 
 <span className="purple"> Backend & ML Engineer</span>, building scalable solutions and working on a client-facing project with 
 <span className="purple"> Rakuten, India</span>.
-<br />
+{/* <br />
 I've published multiple research papers as 
-<span className="purple"> Primary Author</span> at international conferences.
+<span className="purple"> Primary Author</span> at international conferences. */}
+<br />
+I also serve as a 
+<span className="purple"> Board of Studies Member</span> for the 
+<span className="purple"> AI & ML Department</span> at 
+<span className="purple"> BVRIT</span>.
 <br />
 <br />
+
 
             <span className="purple">Sevanth</span> is not only known for Tech, but also
           </p>
